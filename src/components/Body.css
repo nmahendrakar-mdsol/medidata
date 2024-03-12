@@ -1,0 +1,22 @@
+.medicine-card{
+    border: solid lightgrey;
+    padding: 30px;
+    margin: 25px;
+    width: 350px;
+}
+
+.medicine-card:hover,.medicine-card:focus{
+
+    background-color: azure;
+    cursor:pointer
+}
+
+.medicine-image{
+    width: 250px;
+    padding: 25px;
+}
+
+.body-container{
+    display: flex;
+    flex-wrap: wrap;
+}
